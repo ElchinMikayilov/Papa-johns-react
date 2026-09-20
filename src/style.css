@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Titan";
+  src: url("/fonts/LilitaOne2-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "title";
+  src: url("/fonts/LilitaOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+.card-modal .ant-modal-close {
+  transition: none !important;
+}
+
+.card-modal .ant-modal-close:hover {
+  background: transparent !important;
+}
+
+
+
+
