@@ -78,7 +78,7 @@ export const getPizzaParty = async () => {
 }
 
 export const getAddress = async () => {
-    const res = await fetch(`http://localhost:5001/address`)
+    const res = await fetch(`https://papa-johns-react.onrender.com/address`)
     const data = await res.json()
 
     return data
