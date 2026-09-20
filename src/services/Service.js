@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000"
+const API_URL = "https://papa-johns-api.onrender.com"
 
 export const getCategory = async () => {
     const res = await fetch(`${API_URL}/category`)
